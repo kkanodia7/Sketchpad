@@ -116,3 +116,15 @@ root.bind("<Button-1>", click)
 root.bind("<B1-Motion>", drag)
 root.bind("<ButtonRelease-1>", release)
 root.mainloop()
+
+
+# Potential Future Improvements:
+#   - Indicate which tool is selected
+#   - Indicate which color is selected
+#   - Add more tools to use
+#   - Add more colors to use
+#   - Show preview of lines / rectangles before placing them
+#   - Have spray-can continuously add more dots, even while cursor is still
+#   - Stop spray-can from adding pixels to the side bar
+#   - Add option to save / screen-shot image
+#   - Fix all issues that occur when resizing the screen
